@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "asfkdas",
+      "lastName": "ddafa",
+      "email": "asfad@dsf",
+      "phone": "0089675"
+    },
+    {
+      "id": 2,
+      "firstName": "po",
+      "lastName": "po",
+      "email": "popo@xyz",
+      "phone": "0998652"
+    },
+    {
+      "id": 3,
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@xyz",
+      "phone": "12345"
+    },
+    {
+      "id": 4,
+      "firstName": "lele",
+      "lastName": "lele",
+      "email": "lelelele@xyz",
+      "phone": "098765"
+    },
+    {
+      "id": 5,
+      "firstName": "lol",
+      "lastName": "lol",
+      "email": "lmao@xyx",
+      "phone": "456789"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
