@@ -27,8 +27,8 @@
             <td>{{row.email}}</td>
             <td>{{row.phone}}</td>
             <td>
-                <button type="button" (click)="onEdit(row)" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info">Edit</button>
-                <button type="button" (click)="deleteAnEmployee(row)" class="btn btn-danger mx-4">Delete</button>
+                <button (click)="onEdit(row)" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info">Edit</button>
+                <button (click)="deleteAnEmployee(row)" class="btn btn-danger mx-4">Delete</button>
             </td>
         </tr>
     </tbody>
